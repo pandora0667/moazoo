@@ -3,6 +3,7 @@ package main
 import (
 	"runtime"
 	. "./start"
+	network "./network"
 )
 
 func main()  {
@@ -11,5 +12,8 @@ func main()  {
 
 	Logo()
 	Spec()
+
+	network.PrivateIP()
+	network.PublicIP()
 
 }

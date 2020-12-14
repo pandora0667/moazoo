@@ -32,6 +32,6 @@ __  _  _|__| ___________/ ____\/  |_    _____   _________  ____________   ____
 
 `
 	fmt.Println(platform)
-	fmt.Println("name : seongwon lee , email : seongwon@edu.hanbat.ac.kr")
+	fmt.Println("Developer : seongwon lee , email : seongwon@edu.hanbat.ac.kr")
 
 }
