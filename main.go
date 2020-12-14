@@ -1,9 +1,9 @@
 package main
 
 import (
-	"runtime"
-	. "./start"
 	network "./network"
+	. "./start"
+	"runtime"
 )
 
 func main()  {
@@ -15,5 +15,6 @@ func main()  {
 
 	network.PrivateIP()
 	network.PublicIP()
+
 
 }

@@ -44,7 +44,7 @@ func PublicIP()  {
 		panic(err)
 	}
 
-	log.Printf("Server Public IP Address : :%s\n", ip)
+	log.Printf("Server Public IP Address : :%s", ip)
 
 	defer resp.Body.Close()
 
