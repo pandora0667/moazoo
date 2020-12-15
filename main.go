@@ -2,11 +2,12 @@ package main
 
 import (
 	network "./network"
+	server "./server"
 	. "./start"
 	"runtime"
 )
 
-func main()  {
+func main() {
 
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
@@ -15,6 +16,6 @@ func main()  {
 
 	network.PrivateIP()
 	network.PublicIP()
-
+	server.Start()
 
 }
