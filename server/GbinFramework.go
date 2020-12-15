@@ -37,20 +37,53 @@ func get(r *gin.Engine) {
 		context.String(http.StatusOK, "Hello, World")
 	})
 
-	r.GET("/ping", func(context *gin.Context) {
+	r.GET("/serverStatus", func(context *gin.Context) {
 		context.String(http.StatusOK, "pong")
 	})
+
+	r.GET("/user", func(context *gin.Context) {
+
+	})
+
+	r.GET("/users", func(context *gin.Context) {
+
+	})
+
+	r.GET("/actuator", func(context *gin.Context) {
+
+	})
+
+	r.GET("/actuators", func(context *gin.Context) {
+
+	})
+
+	r.GET("/apiKey", func(context *gin.Context) {
+
+	})
+
 }
 
 func post(r *gin.Engine) {
+
+	r.POST("/", func(context *gin.Context) {
+
+	})
 
 }
 
 func put(r *gin.Engine) {
 
+	r.PUT("/", func(context *gin.Context) {
+
+	})
+
 }
 
 func delete(r *gin.Engine) {
+
+	r.PUT("/", func(context *gin.Context) {
+
+	})
 
 }
 
