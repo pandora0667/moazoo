@@ -65,25 +65,13 @@ func get(r *gin.Engine) {
 
 func post(r *gin.Engine) {
 
-	r.POST("/", func(context *gin.Context) {
-
-	})
-
 }
 
 func put(r *gin.Engine) {
 
-	r.PUT("/", func(context *gin.Context) {
-
-	})
-
 }
 
 func delete(r *gin.Engine) {
-
-	r.PUT("/", func(context *gin.Context) {
-
-	})
 
 }
 
